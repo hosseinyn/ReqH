@@ -17,6 +17,8 @@ function createWindow() {
       preload: join(__dirname, 'preload.js')
     }
   });
+  
+  window.webContents.openDevTools()
 
   const port = process.env.PORT || 3000;
   const url = isDev ? `http://localhost:${port}` : join(__dirname, '../dist-vite/index.html');

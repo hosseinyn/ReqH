@@ -1,0 +1,28 @@
+@import "./components";
+
+.toolbar input {
+  @include input-styles;
+  width: 450px;
+  height: 40px;
+}
+
+.toolbar .methods-select {
+  width: 180px;
+}
+
+.toolbar button {
+  width: 107px;
+  height: 37px;
+}/*# sourceMappingURL=Main.css.map */
+
+.query-input{
+  @include input-styles;
+  width: 170px;
+  height: 35px;
+}
+
+.value-input {
+  @include input-styles;
+  width: 350px;
+  height: 35px;
+}
