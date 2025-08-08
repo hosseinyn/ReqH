@@ -1,0 +1,16 @@
+.toolbar input {
+  width: 450px;
+  height: 40px;
+  outline: none;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.toolbar .methods-select {
+  width: 180px;
+}
+
+.toolbar button {
+  width: 107px;
+  height: 37px;
+}/*# sourceMappingURL=Main.css.map */
